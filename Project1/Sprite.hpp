@@ -4,14 +4,14 @@
 // nombre del proyecto
 // creacion - fecha
 //
-
-DOXYGEN -- Programa que extrae comentarios de documentacion a comentarios de desarrollo
+// DOXYGEN -- Programa que extrae comentarios de documentacion a comentarios de desarrollo
 
 	/**
 	@brief --> Es lo que se pondria en la seccion que siempre se ve, el resto se comprime
 	
 	*/
 
+#include <string>
 namespace xxxx
 {
 	// Cada clase necesita explicacion de que hace o que sirve
@@ -28,7 +28,7 @@ namespace xxxx
 		/// Hay etiquetas para parametros y tipo de retorno
 		/// @param data y explicas aqui lo que hace
 		/// @return y aqui explicas que es lo que retorna y que significa
-		bool initialize (const string& data);
+		bool initialize (const std::string& data);
 
 	
 	/// Recomendacion de comentar los miembros privados
